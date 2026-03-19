@@ -1,0 +1,230 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #ff7b00, #ffb347);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 16px;
+}
+
+.card-option {
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card-option:hover {
+    transform: translateY(-4px);
+}
+
+.selected-option {
+    border: 2px solid #198754 !important;
+    background-color: #eafaf1 !important;
+}
+
+.preview-box {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.step-box {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.badge-topping {
+    margin: 4px;
+    font-size: 0.9rem;
+}
+
+.price-box {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #dc3545;
+}
+.preset-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: #fff;
+}
+
+.preset-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14);
+}
+
+.preset-card.active {
+    border: 2px solid #dc3545;
+    box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.12);
+}
+
+.preset-img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.preview-pizza-img {
+    max-width: 220px;
+    border-radius: 50%;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    background: white;
+    padding: 10px;
+}
+
+.preview-box {
+    background: linear-gradient(180deg, #ffffff 0%, #fff8f2 100%);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.step-box {
+    border-radius: 20px;
+}
+
+.badge-topping {
+    margin: 4px;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 999px;
+}
+
+.price-box {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+h2, h4 {
+    font-weight: 700;
+}
+.my-config-header {
+    background: linear-gradient(135deg, #fff5ef, #ffffff);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.config-card {
+    border: none;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: #ffffff;
+}
+
+.config-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.14);
+}
+
+.config-image-wrapper {
+    background: linear-gradient(180deg, #fff7f0 0%, #ffffff 100%);
+    padding: 18px;
+    text-align: center;
+}
+
+.config-card-img {
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.config-info-box {
+    background: #f8f9fa;
+    border-radius: 16px;
+    padding: 14px 16px;
+}
+
+.config-price {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.empty-config-box {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 40px 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.empty-config-img {
+    width: 180px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.size-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: #fff;
+    cursor: pointer;
+}
+
+.size-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14);
+}
+
+.size-card.active {
+    border: 2px solid #dc3545;
+    box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.12);
+}
+
+.size-img {
+    height: 180px;
+    object-fit: cover;
+}
+.index-feature-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.index-feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.14);
+}
+
+.custom-pizza-section {
+    background: linear-gradient(135deg, #fff6ef, #ffffff);
+    border-radius: 24px;
+    padding: 40px 28px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.custom-pizza-image-box {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+    display: inline-block;
+}
+
+.home-pizza-img {
+    max-width: 320px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.summary-pizza-img {
+    max-width: 220px;
+    width: 100%;
+    object-fit: contain;
+}
